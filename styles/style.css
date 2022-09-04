@@ -75,6 +75,10 @@ ol {
   color: #2f80ed;
 }
 
+.header__link:hover {
+  text-decoration: underline;
+}
+
 .header__main-illustration {
   position: absolute;
   height: 608px;
@@ -269,6 +273,10 @@ ol {
   z-index: 10;
 }
 
+.feynman__link:hover {
+  text-decoration: underline;
+}
+
 .feynman__illustration {
   position: absolute;
   bottom: 0;
@@ -350,7 +358,6 @@ ol {
   margin-bottom: 16px;
   display: flex;
   flex-direction: column;
-
 }
 
 .footer__column-link {
@@ -359,6 +366,10 @@ ol {
   font-size: 18px;
   font-weight: normal;
   text-decoration: none;
+}
+
+.footer__column-link:hover {
+  text-decoration: underline;
 }
 
 .footer__column_content_social {
