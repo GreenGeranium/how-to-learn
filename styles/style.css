@@ -9,6 +9,18 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -22,7 +34,8 @@
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .logo {
-
+  width: 228px;
+  height: 32px;
 }
 
 .logo_place_header {
@@ -32,15 +45,11 @@
   z-index: 10;
 }
 
-.logo_place_footer {
-  width: 228px;
-  height: 32px;
-}
-
 .header__title {
-  display: flex;
   align-self: center;
-  width: 730px;
+  max-width: 730px;
+  width: 100%;
+  margin: 0px;
   margin-left: 64px;
   line-height: 96px;
   font-size: 102px;
@@ -49,7 +58,9 @@
 }
 
 .header__subtitle {
-  width: 388px;
+  margin: 0;
+  max-width: 388px;
+  width: 100%;
   position: absolute;
   left:64px;
   bottom: 30px;
@@ -82,10 +93,6 @@
   background-color:  #2f80ed;
 }
 
-.content {
-
-}
-
 .description {
   position: relative;
   display: flex;
@@ -102,8 +109,6 @@
 
 .two-columns__brief {
   max-width: 175px;
-  text-align: left;
-  vertical-align: top;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -130,8 +135,6 @@
 }
 
 .two-columns__span{
-  line-height: 34px;
-  font-size: 24px;
   font-weight: 600;
 }
 
@@ -142,7 +145,8 @@
 }
 
 .section-title {
-  width: 60%;
+  max-width: 60%;
+  width: 100%;
   margin: 0;
   margin-bottom: 20px;
   text-align: center;
@@ -157,7 +161,8 @@
 }
 
 .section-subtitle {
-  width: 60%;
+  max-width: 60%;
+  width: 100%;
   margin: 0;
   text-align: center;
   line-height: 34px;
@@ -224,13 +229,14 @@
 .feynman {
   background-color: #f2f2f2;
   display: flex;
-  height: 890px;
+  min-height: 890px;
   position: relative;
   flex-direction: column;
 }
 
 .feynman__title {
-  width: 648px;
+  max-width: 648px;
+  width: 100%;
   margin-top: 100px;
   text-align: center;
   align-self: center;
@@ -277,7 +283,7 @@
   flex-direction: column;
   align-items: center;
   background-color:  #1f1f1f;
-  z-index: -2;
+  z-index: 0;
   overflow: hidden;
   position: relative;
 }
