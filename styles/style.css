@@ -176,6 +176,7 @@
   margin-right: auto;
   justify-content: space-between;
   list-style: none;
+  padding: 0;
 }
 
 .table_theme_dark {
