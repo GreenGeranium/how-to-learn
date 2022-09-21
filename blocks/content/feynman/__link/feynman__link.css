@@ -12,4 +12,6 @@
 
 .feynman__link:hover {
   text-decoration: underline;
+  opacity: 50%; 
+  transition: opacity 1s linear;
 }
