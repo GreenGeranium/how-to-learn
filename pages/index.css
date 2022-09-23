@@ -45,6 +45,10 @@
 @import url("../blocks/content/feynman/__illustration/feynman__illustration.css");
 @import url("../blocks/content/kaufman/kaufman.css");
 @import url("../blocks/content/kaufman/__triangle/kaufman__triangle.css");
+@import url("../blocks/content/resources/resources.css");
+@import url("../blocks/content/resources/__logo-zone/resources__logo-zone.css");
+@import url("../blocks/content/resources/__logo/resources__logo.css");
+@import url("../blocks/content/resources/__link/resources__link.css");
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__columns/footer__columns.css");
 @import url("../blocks/footer/__column/_content/footer__column_content_copyright.css");
