@@ -8,6 +8,6 @@
 
 .footer__column-link:hover {
   text-decoration: underline;
-  opacity: 50%; 
+  opacity: 50%;
   transition: opacity 1s linear;
 }
